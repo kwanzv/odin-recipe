@@ -7,57 +7,91 @@
     <title></title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="output.css" />
+    <script
+      src="https://kit.fontawesome.com/2970948f95.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <div class="wrapper">
-      <div class="container">
-        <h1>Recipe App</h1>
-        <p><strong>You found the right place!</strong></p>
-        <h2>Here are our top 3 Vietnamese recipes</h2>
+    <div class="container">
+      <nav>
+        <h1 class="title">Odin's Recipes</h1>
+        <ul>
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-solid fa-user-tie"></i>
+          <i class="fa-solid fa-bars"></i>
+        </ul>
+      </nav>
 
-        <section class="cards">
-          <section class="card">
+      <section class="cards">
+        <div class="card-main">
             <img
-              src="https://www.thespruceeats.com/thmb/_pwqwLsNPawgnx9z-FM_fh85y4E=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/classic-banh-mi-4844177-hero-01-236ece4af179446888909d052ef61016.jpg"
-              alt="delicious banh mi"
-              class="banhmi"
-            />
-            <div class="card-body">
-              <h2>Banh Mi</h2>
-              <a href="./recipes/banhmi.html"><p>Recipe</p></a>
+            src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2021%2F01%2F22%2F246028-roasted-pork-banh-mi-vietnamese-sandwich.jpg&w=640&h=428&c=sc&poi=face&q=60"
+            alt="delicious banh mi"
+            alt="delicious banh mi"
+            class="banhmi"
+          />
+        
+          <div class="card-body">
+            <p>
+              <i class="fa-regular fa-thumbs-up fa-lg"></i> 85% people
+              recommended this recipe
+            </p>
+            <h2>Vietnamese Style Banh Mi</h2>
+            <p>
+              Look no further for a flavourful and easy-to-make classic banh mi
+              recipe! no one can deny its simple decadence.
+            </p>
+
+            <a href="./recipes/banhmi.html" class="next-icon">></a>
+          </div>
             </div>
-          </section>
-          <section class="card">
-            <img
-              src="https://images.food52.com/kGJHjpIcqxMSOrOfzxaM2r_i9Ug=/1200x675/65d94dd2-1509-4e86-9f82-02bc2190de45--Vegan-Banh-Cuon-F52Website.jpg"
-              alt=""
-            />
-            <div class="card-body">
-              <h2>Banh Cuon</h2>
-              <a href="./recipes/banhcuon.html"><p>Recipe</p></a>
+
+          <h2 id="other-title">Super delicious</h2>
+
+          <div class="card-list">
+            <div class="card">
+              <img
+                src="https://cdn.tgdd.vn/Files/2017/10/22/1034982/cach-lam-banh-cuon-bang-bot-lam-banh-cuon-mikko-202111111226513462.jpg"
+                alt="Banh Cuon"
+              />
+              <div class="star-rating">&#9733;&#9733;&#9733;&#9733;</div>
+              <p><a href="./recipes/banhcuon.html">Banh Cuon</a></p>
             </div>
-          </section>
-          <section class="card">
-            <img
-              src="https://cdn.tgdd.vn/Files/2020/03/25/1244527/cach-lam-banh-xeo-chay-thom-ngon-gion-rum-don-gian-13-760x367.jpg"
-              alt="banh xeo"
-            />
-            <div class="card-body">
-              <h2>Banh Xeo</h2>
-              <a href="./recipes/banhxeo.html"><p>Recipe</p></a>
+            <div class="card">
+              <img
+                src="https://cdn.tgdd.vn/Files/2020/05/20/1256908/troi-mua-thu-lam-banh-xeo-kieu-mien-bac-gion-ngon-it-dau-mo-202005201034115966.jpg"
+                alt="Banh Xeo"
+              />
+              <div class="star-rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <p><a href="./recipes/banhxeo.html">Banh Xeo</a></p>
             </div>
-          </section>
-        </section>
-      </div>
-      <div class="container-image">
-        <img
-          src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-          alt=""
-        />
-      </div>
+            <div class="card">
+              <img
+                src="https://i.ytimg.com/vi/cJu6tFJe_Gc/maxresdefault.jpg"
+                alt=""
+              />
+              <div class="star-rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+
+              <p><a href="./recipes/comtam.html">Com Tam</a></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta">
+        <h1>
+          Deliciousness<br />
+          to your inbox
+        </h1>
+        <p>Enjoy weekly hand picked recipes and recommendations</p>
+
+        <div class="form">
+          <input type="email" placeholder="Enter your email" />
+        </div>
+        <p>By joining our newsletter you agree to our Terms and Conditions</p>
+      </section>
     </div>
-
-    <script src="" async defer></script>
   </body>
 </html>
