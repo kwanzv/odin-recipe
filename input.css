@@ -6,7 +6,7 @@
 }
 
 .cta {
-  background-color: #FFD8CA;
+  background-color: #ffd8ca;
   height: 40vh;
   width: 100%;
   display: flex;
@@ -57,10 +57,11 @@ nav ul {
 }
 .card-main .card-body {
   padding: 1rem;
-  background-color: #E4F1FF;
+  background-color: #e4f1ff;
   border-radius: 0px 0px 10px 10px;
 }
-.card-main .card-body p, .card-main .card-body h2 {
+.card-main .card-body p,
+.card-main .card-body h2 {
   background-color: transparent;
   letter-spacing: 0.1rem;
   padding-bottom: 0.5rem;
@@ -110,7 +111,7 @@ nav ul {
   flex-direction: column;
 }
 .card-list img {
-  width: 125px;
+  width: 200px;
   border-radius: 10px 10px 0px 0px;
 }
 .card-list a {
@@ -146,4 +147,4 @@ nav ul {
   grid-column: span 2;
   width: 70%;
   margin: 0 auto;
-}/*# sourceMappingURL=input.css.map */
+} /*# sourceMappingURL=input.css.map */
